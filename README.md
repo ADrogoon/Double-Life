@@ -1,5 +1,5 @@
 // If error happens : 
-set life -> \n
+set life ->
 scoreboard players set (INSERT_PLAYER) (SET LIFE COUNT 0-3 0 is green 3 is dead)
 execute as (INSERT_PLAYER) run function db_dl:change_lives
 
